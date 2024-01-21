@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
+  // output: "export",
   images: {
     remotePatterns: [
       {
@@ -14,10 +14,10 @@ const nextConfig = {
       },
     ],
   },
-  images: {
-    loader: "custom",
-    loaderFile: "./my-loader.js",
-  },
+  // images: {
+  //   loader: "custom",
+  //   loaderFile: "./my-loader.js",
+  // },
 };
 
 module.exports = nextConfig;
