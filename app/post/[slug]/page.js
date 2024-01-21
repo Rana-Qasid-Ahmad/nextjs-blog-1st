@@ -1,6 +1,8 @@
 import apiURL from "@/api";
 import styles from "./postD.module.css";
 import axios from "axios";
+import Image from "next/image";
+
 
 // Return a list of `params` to populate the [slug] dynamic segment
 export async function generateStaticParams() {
@@ -51,7 +53,7 @@ export default async function Post({ params }) {
         <div className={`${styles.Main}`}>
           <div className={`${styles.inner}`}>
             <div className={`${styles.avatar}`}>
-              <img
+              <Image
                 className={`${styles.avatarImage}`}
                 src={item.avatar}
                 alt={item.avatar}

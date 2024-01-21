@@ -11,7 +11,7 @@ export default function PostCard({ post }) {
     <div className={`${styles.Main}`}>
       <Link href={`/post/${post.id}`}>
        
-        <img fetchPriority="high" className={`${styles.mainImage}`} alt="None" src={post.image} width={360} height={210} />
+        <Image fetchPriority="high" className={`${styles.mainImage}`} alt="None" src={post.image} width={360} height={210} />
         <div className={`${styles.inner}`}>
           <p>
             {/* <b>{post.category.slice(0, 20)}</b> — {formattedDate} */}
