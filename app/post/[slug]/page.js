@@ -65,7 +65,7 @@ export default async function Post({ params }) {
             </div>
             <h1 className={`${styles.title}`}>{item.title}</h1>
             <div className={`${styles.image}`}>
-              <img
+              <Image
                 // priority={true}
                 src={item.image}
                 alt={item.title}
@@ -81,25 +81,25 @@ export default async function Post({ params }) {
               <hr />
               <div className={`${styles.share}`}>
                 <p>Share : </p>
-                <img
+                <Image
                   alt="Share"
                   src="/assets/fbsvg.svg"
                   width={30}
                   height={30}
                 />
-                <img
+                <Image
                   alt="Share"
                   src="/assets/twittersvg.svg"
                   width={30}
                   height={30}
                 />
-                <img
+                <Image
                   alt="Share"
                   src="/assets/linkedinsvg.svg"
                   width={30}
                   height={30}
                 />
-                <img
+                <Image
                   alt="Share"
                   src="/assets/pinterestsvg.svg"
                   width={30}
