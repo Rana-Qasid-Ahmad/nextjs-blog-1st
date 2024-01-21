@@ -1,0 +1,28 @@
+.main{
+    margin-top: 50px;
+    border-top: 2px solid var(--pri-color);
+    padding:50px 0px;
+}
+.inner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.col{
+    flex: 1;
+}
+
+.col1{
+  min-width: 40%;
+} 
+.col2 ,.col3{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 768px){
+    .col1{
+        min-width: 100%;
+    }
+    
+}

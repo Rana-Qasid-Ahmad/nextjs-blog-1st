@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+:root {
+  --pri-color: #212529;
+  --sec-color: #fffefe;
+  --text-color: #888;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+@media screen and (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  background-color: #fffefe;
+  padding: 0px 10px;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+.activeLink{
+  border-bottom: 3px solid var(--pri-color);
+}
+.bgPri {
+  background-color: var(--pri-color);
+}
+.bgSec {
+  background-color: var(--sec-color);
+}
+.textPri {
+  color: var(--pri-color);
+}
+.textSec {
+  color: var(--sec-color);
+}
+.textText {
+  color: var(--text-color);
+}
+
+.text1 {
+  line-height: 50px;
+  font-size: 40px;
+}
+.text2 {
+  line-height: 40px;
+  font-size: 30px;
+}
+.text3 {
+  line-height: 25px;
+  font-size: 16px;
+}
+.text4 {
+  line-height: 20px;
+  font-size: 15px;
+}
+.textJustify{
+  text-align: justify;
+}
+.pageMain {
+  display: flex;
+  justify-content: center;
+}
+.pageInner {
+  width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 1280px) {
+  .pageInner {
+    width: 1050px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .pageInner {
+    width: 924px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .pageInner {
+    width: 800px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .pageInner {
+    width: 670px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .pageInner {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pageInner {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .pageInner {
+    width: 320px;
+  }
+}
+
+
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 3vw;
+  height: 2vw;
+}
+.svg-icon:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all .3s ease-in-out;
+}
+.svg-icon:hover path{
+  fill: #000000;
+
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: var(--pri-color);
+}
+
+.svg-icon circle {
+  stroke: var(--pri-color);
+  stroke-width: 1;
+}

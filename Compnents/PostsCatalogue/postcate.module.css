@@ -1,0 +1,15 @@
+.PostCards{
+    display: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}.PostCardsS{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hidden{
+display: none;
+}
+.active{
+    display: flex !important;
+}

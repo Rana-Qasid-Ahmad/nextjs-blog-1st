@@ -1,0 +1,49 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  cursor: pointer;
+  width: 30% ;
+  /* min-height: 500px; */
+  justify-content:  space-between;
+
+}
+.arrow{
+  margin-left: 4vw;
+}
+.person {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.person img {
+  width: 50px;
+  height: 50px;
+  clip-path: circle(50%);
+  margin-right: 10px;
+}
+.Main  img {
+  border-radius: 10px;
+  object-fit: cover;
+}
+.inner {
+    padding: 10px 0px;
+}
+.discP{
+    margin-top: 10px;
+}
+.inner {
+    font-size: 12px;
+}
+.mainImage{
+  width: 100%;
+}
+@media screen and (max-width:770px) {
+   .Main{
+    width: 45%;
+   }
+}@media screen and (max-width:500px) {
+   .Main{
+    width: 100%;
+   }
+}

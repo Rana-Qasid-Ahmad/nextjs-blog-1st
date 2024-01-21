@@ -1,0 +1,13 @@
+.h1{
+    text-align: center;
+    margin: 40px 0px;
+}
+.inner{
+    display: flex;
+    gap: 100px;flex-wrap: wrap
+}
+.col h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}

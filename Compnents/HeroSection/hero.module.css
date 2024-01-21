@@ -1,0 +1,62 @@
+.MainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.MainHeading {
+  font-size: 40px;
+  font-weight: 700;
+}
+.InnerDiv {
+  margin-top: 30px;
+  display: flex;
+  gap: 5vw;
+}
+.person{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.person img{
+    width: 50px;
+    height: 50px;
+    clip-path: circle(50%);
+    margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+    .InnerDiv{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .innerCol2{
+        text-align: center;
+        align-items: center !important;
+    }
+
+}
+.innerCol1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.innerCol1 > img {
+  border-radius: 10px;
+}
+@media screen and (max-width: 400px) {
+  .innerCol1 > img {
+    width: 300px;
+  }
+}
+.innerCol2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.innerCol2 > h2 {
+  margin-top: 15px;
+}
+.innerCol2 > span > p {
+  margin-top: 15px;
+}
